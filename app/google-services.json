@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "170187814040",
+    "firebase_url": "https://medicsmart-fab4a.firebaseio.com",
+    "project_id": "medicsmart-fab4a",
+    "storage_bucket": "medicsmart-fab4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170187814040:android:1a4445fb49e90115",
+        "android_client_info": {
+          "package_name": "com.example.android.medicsmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170187814040-viah8b0e1vrpr6n7ius130md7otb5u48.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.medicsmart",
+            "certificate_hash": "216df1fe9bc53341ad2766a3280d5e72b11788b5"
+          }
+        },
+        {
+          "client_id": "170187814040-v0pbqcf1lajjt022auunhh7srfhhmmj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB--J1q3k49UANOXNvoKtefhvgirB07rIk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170187814040-v0pbqcf1lajjt022auunhh7srfhhmmj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
