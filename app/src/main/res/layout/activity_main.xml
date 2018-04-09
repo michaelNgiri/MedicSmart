@@ -16,6 +16,7 @@
             <ImageView
                 android:layout_width="85dp"
                 android:layout_height="100dp"
+                android:backgroundTint="grey"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:background="@drawable/app_logo" />
