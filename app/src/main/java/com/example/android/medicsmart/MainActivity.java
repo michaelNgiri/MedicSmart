@@ -9,8 +9,8 @@ import android.widget.ProgressBar;
 
 import com.google.firebase.auth.FirebaseAuth;
 
-import static com.example.android.medicsmart.R.id.btn_email_login;
-import static com.example.android.medicsmart.R.id.btn_google_login;
+import static com.example.android.medicsmart.R.id.btnEmailLogin;
+import static com.example.android.medicsmart.R.id.btnGoogleLogin;
 import static com.example.android.medicsmart.R.id.textViewSignup;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         progressBar = (ProgressBar) findViewById(R.id.progressbar);
 
         findViewById(textViewSignup).setOnClickListener(this);
-        findViewById(btn_email_login).setOnClickListener(this);
-        findViewById(btn_google_login).setOnClickListener(this);
+        findViewById(btnEmailLogin).setOnClickListener(this);
+        findViewById(btnGoogleLogin).setOnClickListener(this);
 
     }
 
@@ -57,12 +57,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(signup);
                 break;
 
-            case btn_email_login:
+            case btnEmailLogin:
                 Intent emailLogin = new Intent(this, EmailLoginActivity.class);
                 startActivity(emailLogin);
                 break;
 
-            case btn_google_login:
+            case btnGoogleLogin:
                 Intent googleLogin = new Intent(this, GoogleLoginActivity.class);
                 startActivity(googleLogin);
                 break;

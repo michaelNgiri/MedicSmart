@@ -50,11 +50,11 @@
                         android:text="Login with Google"
                         android:textAlignment="center"
                         android:textColor="@color/common_google_signin_btn_text_light"
-                        android:id="@+id/btn_google_login">
+                        android:id="@+id/btnGoogleLogin">
 
                 </com.google.android.gms.common.SignInButton>
                 <Button
-                    android:id="@+id/btn_email_login"
+                    android:id="@+id/btnEmailLogin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"

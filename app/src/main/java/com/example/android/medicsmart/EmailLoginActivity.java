@@ -15,7 +15,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-import static com.example.android.medicsmart.R.id.btn_email_login;
+import static com.example.android.medicsmart.R.id.btnEmailLogin;
 
 public class EmailLoginActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -26,7 +26,7 @@ public class EmailLoginActivity extends AppCompatActivity implements View.OnClic
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_email_login);;
+            setContentView(R.layout.activity_email_login);
 
             mAuth = FirebaseAuth.getInstance();
 
@@ -35,8 +35,8 @@ public class EmailLoginActivity extends AppCompatActivity implements View.OnClic
             progressBar = (ProgressBar) findViewById(R.id.progressbar);
 
             findViewById(R.id.textViewSignup).setOnClickListener(this);
-            findViewById(btn_email_login).setOnClickListener(this);
-            findViewById(R.id.btn_google_login).setOnClickListener(this);
+            findViewById(btnEmailLogin).setOnClickListener(this);
+            findViewById(R.id.btnGoogleLogin).setOnClickListener(this);
 
         }
 

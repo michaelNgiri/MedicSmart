@@ -61,7 +61,6 @@ public class GoogleLoginActivity extends AppCompatActivity {
                 }
             }
         };
-        GoogleApiClient mGoogleApiClient;
        }
 
 

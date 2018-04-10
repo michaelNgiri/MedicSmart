@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.medicsmart.SignUpActivity">
+    tools:context="com.example.android.medicsmart.GoogleLoginActivity">
 
 <LinearLayout
     android:id="@+id/main_layout"
