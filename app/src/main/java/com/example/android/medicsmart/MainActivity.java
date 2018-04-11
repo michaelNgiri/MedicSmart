@@ -1,5 +1,6 @@
 package com.example.android.medicsmart;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -53,17 +54,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()) {
             case textViewSignup:
-                Intent signup = new Intent(this, SignUpActivity.class);
+                Context context = MainActivity.this;
+                Class destinationActivity = SignUpActivity.class;
+                Intent signup = new Intent(context, destinationActivity);
                 startActivity(signup);
                 break;
 
             case btnEmailLogin:
-                Intent emailLogin = new Intent(this, EmailLoginActivity.class);
+                Context context1 = MainActivity.this;
+                Class EmailLoginActivity = EmailLoginActivity.class;
+                Intent emailLogin = new Intent(context1, EmailLoginActivity);
                 startActivity(emailLogin);
                 break;
 
             case btnGoogleLogin:
-                Intent googleLogin = new Intent(this, GoogleLoginActivity.class);
+                Context context2 = MainActivity.this;
+                Class GoogleLoginActivity = GoogleLoginActivity.class;
+                Intent googleLogin = new Intent(context2, GoogleLoginActivity);
                 startActivity(googleLogin);
                 break;
 

@@ -20,7 +20,9 @@
         <activity android:name=".ProfileActivity" />
         <activity android:name=".GoogleLoginActivity" />
         <activity android:name=".EmailLoginActivity" />
-        <activity android:name=".LogoutActivity"></activity>
+        <activity android:name=".LogoutActivity" />
+        <activity android:name=".PrescriptionsActivity" />
+        <activity android:name=".AddPrescriptionsActivity"></activity>
     </application>
 
 </manifest>

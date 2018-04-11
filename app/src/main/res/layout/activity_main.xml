@@ -35,14 +35,6 @@
 
 
 
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:orientation="vertical"
-                android:paddingLeft="15dp"
-                android:paddingRight="15dp">
-
-
 
                 <com.google.android.gms.common.SignInButton
                         android:layout_width="match_parent"
@@ -64,13 +56,20 @@
                     android:textColor="@color/colorPrimaryDark" />
 
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Don't have account?"
+                    android:textAlignment="center"/>
+
+                <TextView
                     android:id="@+id/textViewSignup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="15dp"
-                    android:text="Don't have account? Sign Up"
+                    android:text="Sign Up"
                     android:textAlignment="center"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
 
 
 
