@@ -58,6 +58,14 @@
                 android:textAllCaps="false"
                 android:textColor="@color/colorAccent" />
 
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressbar"
+                android:visibility="gone"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"/>
+
 
         </LinearLayout>
 
