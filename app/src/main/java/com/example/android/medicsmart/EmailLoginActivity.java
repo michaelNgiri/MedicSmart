@@ -33,11 +33,10 @@ public class EmailLoginActivity extends AppCompatActivity implements View.OnClic
 
             editTextEmail = (EditText) findViewById(R.id.editTextEmail);
             editTextPassword = (EditText) findViewById(R.id.editTextPassword);
-            progressBar = (ProgressBar) findViewById(R.id.progressbar);
+            progressBar = (ProgressBar) findViewById(R.id.progressBar);
 
             findViewById(R.id.textViewSignup).setOnClickListener(this);
             findViewById(R.id.buttonLogin).setOnClickListener(this);
-//            findViewById(R.id.btnGoogleLogin).setOnClickListener(this);
 
         }
 
@@ -108,15 +107,9 @@ public class EmailLoginActivity extends AppCompatActivity implements View.OnClic
                     startActivity(new Intent(this, SignUpActivity.class));
                     break;
 
-
-
-
                 case R.id.buttonLogin:
                     userLogin();
                     break;
             }
         }
     }
-
-
-
