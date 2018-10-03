@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".SignUpActivity" />
-        <activity android:name=".ProfileActivity" />
+        <activity android:name=".ProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
         <activity android:name=".GoogleLoginActivity" />
         <activity android:name=".EmailLoginActivity" />
         <activity android:name=".LogoutActivity" />
